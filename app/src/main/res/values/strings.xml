@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Animal Sounds</string>
+    <string name="label">แตะภาพเพื่อฟังเสียงสัตว์</string>
+</resources>
