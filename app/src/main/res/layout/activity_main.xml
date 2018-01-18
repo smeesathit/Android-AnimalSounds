@@ -27,20 +27,20 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/imageView8"
+                android:id="@+id/bird"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/bird" />
 
             <ImageView
-                android:id="@+id/imageView9"
+                android:id="@+id/cat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="15dp"
                 app:srcCompat="@drawable/cat" />
 
             <ImageView
-                android:id="@+id/imageView10"
+                android:id="@+id/cow"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="15dp"
@@ -53,19 +53,19 @@
             android:paddingTop="15dp">
 
             <ImageView
-                android:id="@+id/imageView11"
+                android:id="@+id/dog"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/dog" />
 
             <ImageView
-                android:id="@+id/imageView12"
+                android:id="@+id/duck"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/duck" />
 
             <ImageView
-                android:id="@+id/imageView13"
+                android:id="@+id/elephant"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/elephant" />
@@ -77,19 +77,19 @@
             android:paddingTop="15dp">
 
             <ImageView
-                android:id="@+id/imageView14"
+                android:id="@+id/horse"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/horse" />
 
             <ImageView
-                android:id="@+id/imageView15"
+                android:id="@+id/pig"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/pig" />
 
             <ImageView
-                android:id="@+id/imageView16"
+                android:id="@+id/rooster"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/rooster" />

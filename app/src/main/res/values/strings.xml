@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Animal Sounds</string>
     <string name="label">แตะภาพเพื่อฟังเสียงสัตว์</string>
+    <string name="cat">cat</string>
+    <string name="dog">dog</string>
+    <string name="cow">cow</string>
+    <string name="duck">duck</string>
+    <string name="elephant">elephant</string>
+    <string name="horse">horse</string>
+    <string name="pig">pig</string>
+    <string name="rooster">rooster</string>
 </resources>
