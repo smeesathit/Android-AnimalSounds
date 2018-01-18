@@ -1,6 +1,7 @@
 package th.ac.snru.animalsounds;
 
 import android.content.Context;
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Gravity;
@@ -11,6 +12,8 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     // อาร์เรย์ที่เก็บ reference ของ ImageView (รูปภาพสัตว์) ทั้งเก้า
     private final ImageView imgAnimals[] = new ImageView[9];
+    // ออบเจ็ค MediaPlayer ที่ใช้เล่นไฟล์เสียง
+    private MediaPlayer mPlayer;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -77,11 +80,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 strId = R.string.rooster;
                 break;
         }// End switch
-
+// show toast
         Context context = getApplicationContext();
-        int duration = Toast.LENGTH_LONG;
+        int duration = Toast.LENGTH_SHORT;
         Toast toast = Toast.makeText(context, strId, duration);
         toast.setGravity(Gravity.CENTER, 0, 0);
         toast.show();
+
+        playSound(resId); // เล่นไฟล์เสียง
     } // End onClick
+
+    private void playSound(int id) {
+        // ทำลายออบเจ็ค MediaPlayer ที่ใช้เล่นเสียงในครั้งก่อนหน้า
+        if (mPlayer != null) {
+            mPlayer.stop();
+            mPlayer.release();
+        }
+
+        // สร้างออบเจ็ค MediaPlayer สำหรับเล่นไฟล์เสียงตาม Resource ID ที่ระบุ
+        mPlayer = MediaPlayer.create(this, id);
+        mPlayer.start();
+    }
 } // End MainActivity
