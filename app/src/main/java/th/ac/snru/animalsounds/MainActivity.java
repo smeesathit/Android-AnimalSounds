@@ -84,6 +84,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Context context = getApplicationContext();
         int duration = Toast.LENGTH_SHORT;
         Toast toast = Toast.makeText(context, strId, duration);
+        // set toast position - show in the middle of the screen
         toast.setGravity(Gravity.CENTER, 0, 0);
         toast.show();
 
@@ -100,5 +101,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // สร้างออบเจ็ค MediaPlayer สำหรับเล่นไฟล์เสียงตาม Resource ID ที่ระบุ
         mPlayer = MediaPlayer.create(this, id);
         mPlayer.start();
-    }
+    } // End playSound
 } // End MainActivity
