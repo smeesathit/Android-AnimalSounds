@@ -36,21 +36,21 @@
                 android:id="@+id/cat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="15dp"
+                android:layout_marginLeft="15dp"
                 app:srcCompat="@drawable/cat" />
 
             <ImageView
                 android:id="@+id/cow"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="15dp"
+                android:layout_marginLeft="15dp"
                 app:srcCompat="@drawable/cow" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingTop="15dp">
+            android:layout_marginTop="15dp">
 
             <ImageView
                 android:id="@+id/dog"
@@ -62,19 +62,21 @@
                 android:id="@+id/duck"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
                 app:srcCompat="@drawable/duck" />
 
             <ImageView
                 android:id="@+id/elephant"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
                 app:srcCompat="@drawable/elephant" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingTop="15dp">
+            android:layout_marginTop="15dp">
 
             <ImageView
                 android:id="@+id/horse"
@@ -86,12 +88,14 @@
                 android:id="@+id/pig"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
                 app:srcCompat="@drawable/pig" />
 
             <ImageView
                 android:id="@+id/rooster"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
                 app:srcCompat="@drawable/rooster" />
         </TableRow>
 
